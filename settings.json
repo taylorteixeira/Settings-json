@@ -2,39 +2,47 @@
   "[python]": {
     "editor.formatOnType": true
   },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "liveServer.settings.port": 3333,
+
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "files.associations": {
+    "*.py": "python"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
   "editor.accessibilitySupport": "off",
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "files.autoSave": "afterDelay",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
 
   // editor
   "editor.wordWrap": "on",
-  "editor.fontSize": 12,
+  "editor.fontSize": 14,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
-  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  // "files.autoSave": "afterDelay",
+  "breadcrumbs.enabled": false,
 
   // explorer
   "explorer.compactFolders": false,
-
-  // workbench
-  "workbench.editor.enablePreview": false,
   // "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
 
@@ -53,12 +61,24 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+  "jupyter.askForKernelRestart": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "html": true,
+    "python": true
   },
-  "liveServer.settings.port": 5502,
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  "symbols.hidesExplorerArrows": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "top",
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
   },
-  "window.zoomLevel": -1
+  "editor.colorDecorators": false
 }
