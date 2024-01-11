@@ -72,13 +72,22 @@
     "python": true
   },
   "symbols.hidesExplorerArrows": false,
-  "window.menuBarVisibility": "compact",
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
   "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "top",
   "workbench.editorAssociations": {
     "*.xlsx": "default"
   },
-  "editor.colorDecorators": false
+  "editor.colorDecorators": false,
+  "workbench.editor.enablePreview": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*"
+  },
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.editor.showTabs": "none"
 }
